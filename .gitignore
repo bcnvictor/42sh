@@ -1,0 +1,28 @@
+# Build artifacts
+*.o
+*.a
+src/42sh
+
+# Autotools generated
+Makefile
+Makefile.in
+aclocal.m4
+configure
+ar-lib
+compile
+depcomp
+install-sh
+missing
+config.log
+config.status
+configure~
+autom4te.cache/
+.deps/
+
+# Test runtime files
+tests/.cmdsub
+
+# Editor
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,10 @@
+# Tell GitHub Linguist to ignore autotools-generated files
+Makefile        linguist-generated=true
+Makefile.in     linguist-generated=true
+aclocal.m4      linguist-generated=true
+configure       linguist-generated=true
+ar-lib          linguist-generated=true
+compile         linguist-generated=true
+depcomp         linguist-generated=true
+install-sh      linguist-generated=true
+missing         linguist-generated=true
